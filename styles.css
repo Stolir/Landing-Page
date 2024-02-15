@@ -16,18 +16,61 @@ a {
     color: #F9FAF8;
     font-weight: bold;
     margin-right: auto;
-    margin-left: 13%;
+    margin-left: 16%;
 }
 
 .header {
     background: #1F2937;
     display: flex;
-    padding: 16px;
+    padding-top: 24px;
     align-items: center;
 }
 
 .right-links {
-    margin-right: 13%;
+    margin-right: 16%;
     display: flex;
     gap: 24px;
+}
+
+.hero {
+    background: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+#herotext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text {
+    margin-left: 16%;
+    flex-basis: 625px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+.image {
+    background-color: rgb(94, 96, 107);
+    margin-right: 16%;
+    flex-basis: 625px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 16px;
+    background: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    align-self: flex-start;
 }
