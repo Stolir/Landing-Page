@@ -117,3 +117,29 @@ button {
     width: 175px;
     height: 175px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+}
+
+.qbig {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    align-self: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    color: #1F2937;
+}
+
+.qsmall {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 18%;
+}
